@@ -1,7 +1,9 @@
 # NLT-ALARM
 NLT-ALARM Dat wij hebben gemaakt voor school.
-DEEL 3 | INSTRUCTABLE
+![foto van het alarm](alarm.jpg)
+INSTRUCTABLE
 Opmerking: Wij zouden eigenlijk alle draden gaan solderen maar omdat dit niet helmaal lukte en we niet zoveel tijd meer hadden hebben we dit niet gedaan. We hebben de draden zo goed mogelijk vast proberen te maken. We raden het echter wel aan om de draden te solderen omdat het dan veel beter vast zit en je geen problemen krijgt met connecties.
+
 BENODIGDHEDEN:
 1x Arduino met esp8266 wifi module.
 2x Trilmotor module.
@@ -21,7 +23,8 @@ Soldeer tin.
 Arduino software.
 Arduino Code: https://github.com/D22NK/NLT-ALARM
 
-DE STAPPEN
+DE STAPPEN:
+
 3D PRINTEN
 STAP 1: 
 Verzamel de 3d files. Je kan Zelf een behuizing ontwerpen maar je kan ook degene gebruiken die wij al hebben gemaakt.
@@ -55,10 +58,10 @@ STAP 1
  Zorg dat je alle onderdelen hebt verzamelt.
 
 STAP 2 
- Leds aansluiten: Sluit de leds aan op de arduino. Sluit de + kant van de rode led aan op gpio pin: NUMMER HIER. Sluit de - kant aan op de gnd pin, je moet tussen de led en de ground wel een weerstand gebruiken van 220 ohm. Doe precies hetzelfde voor de gele led maar gebruik nu gpio pin: NUMMER HIER. 
+ Leds aansluiten: Sluit de leds aan op de arduino. Sluit de + kant van de rode led aan op gpio pin: 14. Sluit de - kant aan op de gnd pin, je moet tussen de led en de ground wel een weerstand gebruiken van 220 ohm. Doe precies hetzelfde voor de gele led maar gebruik nu gpio pin: 15.
 
 STAP 3 
-Trilmotoren aansluiten: Sluit de Gnd pin van de tril modules aan op de ground van de arduino. Sluit de vcc pin aan op 5 of 3.3 volt. Als laatste moet je de IN pin aansluiten op gpio pin NUMMER HIER.  van de arduino. 
+Trilmotoren aansluiten: Sluit de Gnd pin van de tril modules aan op de ground van de arduino. Sluit de vcc pin aan op 5 of 3.3 volt. Als laatste moet je de IN pin aansluiten op gpio pin 14. van de arduino. 
 
 STAP 4 
  Batterij & aan/uit knop: De batterij aansluiten is heel makkelijk. Sluit de + kant van de batterij aan op de 3.3 of 5 volt pin van de arduino. De GND moet je eerst aansluit op de middelste van de drie pinnen die aan de aan/uit knop zit. Dan kun je daarna een draad vastmaken aan de linker of rechter pin van de switch, deze draad sluit je dan weer aan aan een GND pin van de arduino. 
@@ -67,7 +70,6 @@ STAP 5
  Scherm aansluiten: Sluit de GND pin van het scherm aan aan de GND pin van de arduino. Sluit de VCC aan op de 3.3 of 5 volt pin. Dan heb je nog de SDA en SCL over. Sluit de SDA aan op pin D2 van de Arduino en sluit de SCL pin aan op de D1 pin van de Arduino.
 
 ALLES IN DE BEHUIZING STOPPEN
-
 STAP 1
  Zorg dat je de vorige stappen allemaal hebt uitgevoerd en dat je alle spullen klaar hebt liggen.
 
@@ -94,3 +96,4 @@ Lijm de riemklip aan de achterkant van de behuizing.
 
 HET ALARM GEBRUIKEN
 Om het alarm te gebruiken zoals wij het nu hebben gemaakt heb je een telefoon nodig die een hotspot kan maken. Maak een hotspot op de telefoon met als naam: Alarm en als wachtwoord: alarm123. Je kan de naam en het wachtwoord aanpassen in de arduino code. Zet eerst de hotspot aan en daarna het alarm. Het alarm gaat nu verbinden en daarna start hij het scherm op, die kun je zien doordat er een logo in beeld komt en dat er daarna een stip links boven in het scherm staat. Nu kun je in de hotspot instellingen van de telefoon kijken wat het IP-Adres is. Op de browser op de telefoon en ga naar het IP-Adres. Nu krijg je de webpagina te zien waar je het alarm kan activeren. 
+

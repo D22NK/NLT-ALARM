@@ -1,6 +1,6 @@
 # NLT-ALARM
 NLT-ALARM Dat wij hebben gemaakt voor school.
-![foto van het alarm](https://github.com/D22NK/NLT-ALARM/master/alarm.jpg)
+![foto van het alarm](https://github.com/D22NK/NLT-ALARM/blob/master/alarm.JPG)
 
 
 INSTRUCTABLE

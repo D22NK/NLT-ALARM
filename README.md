@@ -1,6 +1,8 @@
 # NLT-ALARM
 NLT-ALARM Dat wij hebben gemaakt voor school.
-![foto van het alarm](alarm.jpg)
+![foto van het alarm](https://github.com/D22NK/NLT-ALARM/master/alarm.jpg)
+
+
 INSTRUCTABLE
 Opmerking: Wij zouden eigenlijk alle draden gaan solderen maar omdat dit niet helmaal lukte en we niet zoveel tijd meer hadden hebben we dit niet gedaan. We hebben de draden zo goed mogelijk vast proberen te maken. We raden het echter wel aan om de draden te solderen omdat het dan veel beter vast zit en je geen problemen krijgt met connecties.
 
